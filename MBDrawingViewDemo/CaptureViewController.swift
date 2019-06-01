@@ -9,20 +9,20 @@
 import UIKit
 
 class CaptureViewController: UIViewController {
-    
+
     @IBOutlet weak var imageView: UIImageView!
     var image: UIImage?
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         imageView.image = image
         // Do any additional setup after loading the view.
     }
-    
+
     @IBAction func closeAction(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
-    
+
     /*
      // MARK: - Navigation
      
@@ -32,5 +32,5 @@ class CaptureViewController: UIViewController {
      // Pass the selected object to the new view controller.
      }
      */
-    
+
 }
